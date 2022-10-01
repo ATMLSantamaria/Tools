@@ -1,12 +1,8 @@
 #include "Lector.h"
 
-#include <iostream>
-#include <fstream>
-#include <vector>
 
 Lector::Lector(std::string & source){
     l.open(source,std::fstream::in);
-    //_load_text=content;
 }
 
 std::vector<std::string> Lector::readBookingList(){

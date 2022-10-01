@@ -1,3 +1,4 @@
+#pragma 
 #include <iostream>
 #include <fstream>
 #include <vector>

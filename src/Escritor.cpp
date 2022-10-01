@@ -1,15 +1,5 @@
 #include "Escritor.h"
 
-#include <iostream>
-#include <fstream>
-#include <vector>
-
-
-//Escritor::Escritor(std::string &source,std::vector<std::string> &content);//{
-    //f.open(source,std::fstream::out );
-    //_local_content=content;
-//}
-
 void Escritor::formatHours(){
     std::string booking_id;
     std::string hours;
